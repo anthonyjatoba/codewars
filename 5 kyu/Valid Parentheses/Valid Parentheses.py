@@ -1,15 +1,8 @@
-def valid_parentheses(string):
-    pilha = []
-    for c in string:
-        if c in ('(', ')'):
-            if c == '(':
-                pilha.append('x')
-            else:
-                try:
-                    pilha.pop()
-                except:
-                    return False
-    if len(pilha) == 0:
-        return True
-    else:
+import re
+
+def valid_parentheses(s):
+    try:
+        re.compile(s)
+    except:
         return False
+    return True
