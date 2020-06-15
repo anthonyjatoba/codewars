@@ -1,5 +1,5 @@
 # [String Letter Counting](https://www.codewars.com/kata/59e19a747905df23cb000024)
-Take an input string and return a string that is made up of the number of occurances of each english letter in the input, followed by that letter. The string shouldn't contain zeros; leave them out.
+Take an input string and return a string that is made up of the number of occurences of each english letter in the input followed by that letter, sorted alphabetically. The output string shouldn't contain chars missing from input (chars with 0 occurence); leave them out.
 
 An empty string, or one with no letters, should return an empty string.
 
