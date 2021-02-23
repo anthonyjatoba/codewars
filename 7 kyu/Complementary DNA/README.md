@@ -100,3 +100,8 @@ dnastrand("GTAT")  # returns "CATA"
 dna_strand("ATTGC") == "TAACG"
 dna_strand("GTAT") == "CATA"
 ```
+
+```elixir
+Dna.dna_strand("ATTGC") == "TAACG"
+Dna.dna_strand("GTAT") == "CATA"
+```

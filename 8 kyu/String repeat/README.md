@@ -1,6 +1,6 @@
 # [String repeat](https://www.codewars.com/kata/57a0e5c372292dd76d000d7e)
 ```if-not:racket
-Write a function called `repeatString` which repeats the given String `src` exactly `count` times.
+Write a function called `repeat_str` which repeats the given string `src` exactly `count` times.
 ```
 ```if:racket
 Write a function called `repeat-string` which repeats the given string `str` exactly `count` times.
@@ -12,6 +12,10 @@ repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 ```reason
 repeatStr(6, "I") /* "IIIIII" */
 repeatStr(5, "Hello") //*"HelloHelloHelloHelloHello" */
+```
+```factor
+6 "I" repeat-str ! "IIIIII"
+5 "Hello" repeat-str ! "HelloHelloHelloHelloHello"
 ```
 ```lua
 repeatStr(6, "I") -- "IIIIII"

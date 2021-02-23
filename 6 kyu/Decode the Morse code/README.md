@@ -63,6 +63,10 @@ decodeMorse('.... . -.--   .--- ..- -.. .')
 decodeMorse('.... . -.--   .--- ..- -.. .')
 #should return "HEY JUDE"
 ```
+```swift
+decodeMorse('.... . -.--   .--- ..- -.. .')
+//should return "HEY JUDE"
+```
 ```typescript
 decodeMorse('.... . -.--   .--- ..- -.. .')
 //should return "HEY JUDE"
@@ -96,6 +100,7 @@ The Morse code table is preloaded for you as a dictionary, feel free to use it:
 + Kotlin: `MorseCode[".--"] ?: ""` or `MorseCode.getOrDefault(".--", "")`
 + Rust: `self.morse_code`
 + Scala: `morseCodes(".--")`
++ Swift: `MorseCode[".--"] ?? ""` or `MorseCode[".--", default: ""]`
 * C: provides parallel arrays, i.e. `morse[2] == "-.-"` for `ascii[2] == "C"`
 
 All the test strings would contain valid Morse code, so you may skip checking for errors and exceptions. In C#, tests will fail if the solution code throws an exception, please keep that in mind. This is mostly because otherwise the engine would simply ignore the tests, resulting in a "valid" solution.

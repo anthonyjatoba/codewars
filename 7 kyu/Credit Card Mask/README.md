@@ -14,6 +14,7 @@ maskify(                "") ==                 ""
 maskify("Skippy")                                   == "##ippy"
 maskify("Nananananananananananananananana Batman!") == "####################################man!"
 ```
+
 ```coffeescript
 maskify("4556364607935616") == "############5616"
 maskify(     "64607935616") ==      "#######5616"
@@ -24,6 +25,7 @@ maskify(                "") ==                 ""
 maskify("Skippy")                                   == "##ippy"
 maskify("Nananananananananananananananana Batman!") == "####################################man!"
 ```
+
 ```python
 maskify("4556364607935616") == "############5616"
 maskify(     "64607935616") ==      "#######5616"
@@ -34,6 +36,7 @@ maskify(                "") ==                 ""
 maskify("Skippy")                                   == "##ippy"
 maskify("Nananananananananananananananana Batman!") == "####################################man!"
 ```
+
 ```haskell
 maskify "4556364607935616" == "############5616"
 maskify      "64607935616" ==      "#######5616"
@@ -45,6 +48,7 @@ maskify "Skippy" == "##ippy"
 maskify "Nananananananananananananananana Batman!"
      -- "####################################man!"
 ```
+
 ```ruby
 maskify('4556364607935616') # should return '############5616'
 maskify('64607935616')      # should return '#######5616'
@@ -57,14 +61,14 @@ maskify('Nananananananananananananananana Batman!') # should return '###########
 ```
 
 ```csharp
-Kata.Maskify('4556364607935616'); // should return "############5616"
-Kata.Maskify('64607935616');      // should return "#######5616"
-Kata.Maskify('1');                // should return "1"
-Kata.Maskify('');                 // should return ""
+Kata.Maskify("4556364607935616"); // should return "############5616"
+Kata.Maskify("64607935616");      // should return "#######5616"
+Kata.Maskify("1");                // should return "1"
+Kata.Maskify("");                 // should return ""
 
 // "What was the name of your first pet?"
-Kata.Maskify('Skippy');                                   // should return "##ippy"
-Kata.Maskify('Nananananananananananananananana Batman!'); // should return "####################################man!"
+Kata.Maskify("Skippy");                                   // should return "##ippy"
+Kata.Maskify("Nananananananananananananananana Batman!"); // should return "####################################man!"
 ```
 
 ```java
@@ -76,4 +80,15 @@ Maskify.Maskify("");                 // should return ""
 // "What was the name of your first pet?"
 Maskify.Maskify("Skippy");                                   // should return "##ippy"
 Maskify.Maskify("Nananananananananananananananana Batman!"); // should return "####################################man!"
+```
+
+```rust
+maskify("4556364607935616") == String::from("############5616");
+maskify("64607935616") == String::from("#######5616");
+maskify("1") == String::from("1");
+maskify("") == String::from("");
+
+// "What was the name of your first pet?"
+maskify("Skippy") == String::from("##ippy");
+maskify("Nananananananananananananananana Batman!") ==String::from("####################################man!");
 ```

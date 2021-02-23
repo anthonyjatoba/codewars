@@ -15,42 +15,10 @@ The tests will _always_ use some integral number, so don't worry about that in d
 ### Examples
 
 ```
-is_square (-1) # => false
-is_square   0 # => true
-is_square   3 # => false
-is_square   4 # => true
-is_square  25 # => true
-is_square  26 # => false
-```
-```scala
-isSquare(-1) returns  false
-isSquare(0) returns   true
-isSquare(3) returns   false
-isSquare(4) returns   true
-isSquare(25) returns  true  
-isSquare(26) returns  false
-```
-```c
-is_square(-1) // returns false
-is_square(0)  // returns true
-is_square(3)  // returns false
-is_square(4)  // returns true
-is_square(25) // returns true  
-is_square(26) // returns false
-```
-```julia
-issquare(-1) # returns false
-issquare(0)  # returns true
-issquare(3)  # returns false
-issquare(4)  # returns true
-issquare(25) # returns true  
-issquare(26) # returns false
-```
-```elixir
-Math.square?(-1) # returns false
-Math.square?(0)  # returns true
-Math.square?(3)  # returns false
-Math.square?(4)  # returns true
-Math.square?(25) # returns true  
-Math.square?(26) # returns false
+-1  =>  false
+ 0  =>  true
+ 3  =>  false
+ 4  =>  true
+25  =>  true
+26  =>  false
 ```

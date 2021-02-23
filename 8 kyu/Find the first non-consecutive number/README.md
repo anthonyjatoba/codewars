@@ -26,7 +26,7 @@ If you like this Kata, maybe try this one next: https://www.codewars.com/kata/re
 <sup>2</sup>  
 Swift, Ruby and Crystal: `nil`  
 Haskell: `Nothing`  
-Python, Rust: `None`  
+Python, Rust, Scala: `None`  
 Julia: `nothing`  
 Nim: `none(int)` (See [options](https://nim-lang.org/docs/options.html))
 ```

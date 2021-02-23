@@ -9,7 +9,7 @@ invert([]) == []
 ```
 ~~~
 
-```if:javascript,python,ruby,php,elixir
+```if:javascript,python,ruby,php,elixir,dart
 You can assume that all values are integers. Do not mutate the input array/list.
 ```
 

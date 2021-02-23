@@ -7,3 +7,7 @@ If there are numbers or special characters included in the string, they should b
 ```if:python
 Please note that using `encode` is considered cheating.
 ```
+
+```if:r
+**Note:** As R is a natively vectorized language, you should write `rot13()` such that the argument `x` may be a character vector of any length. The return value should always be a character vector of the same length as `x`.
+```

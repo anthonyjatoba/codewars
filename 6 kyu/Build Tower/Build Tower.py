@@ -1,2 +1,3 @@
 def tower_builder(n_floors):
-    return [(n_floors - i - 1) * ' ' + (i * 2 + 1) * '*' + (n_floors - i - 1) * ' ' for i in range(n_floors)]
+    fmt = "{esp}{ast}{esp}"
+    return [fmt.format(ast='*' * ((n * 2) - 1), esp=' ' * (n_floors - n)) for n in range(1, n_floors + 1)]

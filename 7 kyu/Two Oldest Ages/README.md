@@ -47,6 +47,10 @@ twoOldestAges(@[1, 5, 87, 45, 8, 8]) # should return [45, 87]
 two_oldest_ages([1, 3, 10, 0]) # should return [3, 10]
 ```
 
+```rust
+two_oldest_ages(&[1, 3, 10, 0]) // should return [3, 10]
+```
+
 ```prolog
 two_oldest_ages([1, 5, 87, 45, 8, 8], [45, 87]).
 ```

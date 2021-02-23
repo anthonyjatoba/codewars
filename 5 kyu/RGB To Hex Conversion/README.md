@@ -92,35 +92,32 @@ rgb(255, 255, 300) // returns FFFFFF
 rgb(0, 0, 0)       // returns 000000
 rgb(148, 0, 211)   // returns 9400D3
 ```
-```if:nasm
-<code>
-char \*rgb(int r, int g, int b, char \*outp)
-</code>
-```
 ```nasm
-mov rdi, 255
-mov rsi, 255
-mov rdx, 255
+mov edi, 255
+mov esi, 255
+mov edx, 255
 mov rcx, outp
-call rgb        ; rax <- FFFFFF
+call rgb        ; The string in outp should be "FFFFFF"
 
-mov rdi, 255
-mov rsi, 255
-mov rdx, 300
+mov edi, 255
+mov esi, 255
+mov edx, 300
 mov rcx, outp
-call rgb        ; rax <- FFFFFF
+call rgb        ; The string in outp should be "FFFFFF"
 
-mov rdi, 0
-mov rsi, 0
-mov rdx, 0
+mov edi, 0
+mov esi, 0
+mov edx, 0
 mov rcx, outp
-call rgb        ; rax <- 000000
+call rgb        ; The string in outp should be "000000"
 
-mov rdi, 148
-mov rsi,   0
-mov rdx, 211
+mov edi, 148
+mov esi,   0
+mov edx, 211
 mov rcx, outp
-call rgb        ; rax <- 9400D3
+call rgb        ; The string in outp should be "9400D3"
+
+The function should return the address of the string
 ```
 ```julia
 rgb(255, 255, 255) # returns FFFFFF

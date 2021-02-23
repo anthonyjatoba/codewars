@@ -1,5 +1,5 @@
 # [Beginner Series #3 Sum of Numbers](https://www.codewars.com/kata/55f2b110f61eb01779000053)
-Given two integers `a` and `b`, which can be positive or negative, find the sum of all the numbers between including them too and return it. If the two numbers are equal return `a` or `b`.
+Given two integers `a` and `b`, which can be positive or negative, find the sum of all the integers between including them too and return it. If the two numbers are equal return `a` or `b`.
 
 **Note:** `a` and `b` are not ordered!
 
@@ -61,6 +61,14 @@ get_sum(1, 1) == 1   // 1 Since both are same
 get_sum(-1, 0) == -1 // -1 + 0 = -1
 get_sum(-1, 2) == 2  // -1 + 0 + 1 + 2 = 2
 ```
+```cpp
+get_sum(1, 0) == 1   // 1 + 0 = 1
+get_sum(1, 2) == 3   // 1 + 2 = 3
+get_sum(0, 1) == 1   // 0 + 1 = 1
+get_sum(1, 1) == 1   // 1 Since both are same
+get_sum(-1, 0) == -1 // -1 + 0 = -1
+get_sum(-1, 2) == 2  // -1 + 0 + 1 + 2 = 2
+```
 ```r
 get_sum(1, 0) == 1   # 1 + 0 = 1
 get_sum(1, 2) == 3   # 1 + 2 = 3
@@ -106,7 +114,6 @@ get_sum(1, 1, 1)  % 1 Since both are same
 get_sum(-1, 0, -1) % -1 + 0 = -1
 get_sum(-1, 2, 2) % -1 + 0 + 1 + 2 = 2
 ```
-
 ```scala
 getSum(1, 0) == 1   // 1 + 0 = 1
 getSum(1, 2) == 3   // 1 + 2 = 3
@@ -115,4 +122,13 @@ getSum(1, 1) == 1   // 1 Since both are same
 getSum(-1, 0) == -1 // -1 + 0 = -1
 getSum(-1, 2) == 2  // -1 + 0 + 1 + 2 = 2
 ```
+```pascal
+GetSum(1, 0) = 1   // 1 + 0 = 1
+GetSum(1, 2) = 3   // 1 + 2 = 3
+GetSum(0, 1) = 1   // 0 + 1 = 1
+GetSum(1, 1) = 1   // 1 Since both are same
+GetSum(-1, 0) = -1 // -1 + 0 = -1
+GetSum(-1, 2) = 2  // -1 + 0 + 1 + 2 = 2
+```
+
 

@@ -21,6 +21,10 @@ max_sequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])
 Max.sequence(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4});
 // should be 6: {4, -1, 2, 1}
 ```
+```kotlin
+maxSequence(listOf(-2, 1, -3, 4, -1, 2, 1, -5, 4));
+// should be 6: listOf(4, -1, 2, 1)
+```
 ```c
 maxSequence({-2, 1, -3, 4, -1, 2, 1, -5, 4}, 9)
 // should return 6, from sub-array: {4, -1, 2, 1}
