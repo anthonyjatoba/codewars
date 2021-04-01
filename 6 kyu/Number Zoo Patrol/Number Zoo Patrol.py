@@ -1,3 +1,3 @@
 def find_missing_number(numbers):
-    n = len(numbers) + 1
-    return n * (n + 1) / 2 - sum(numbers)
+    diff = set(range(1, len(numbers) + 2)) - set(numbers)
+    return diff.pop()

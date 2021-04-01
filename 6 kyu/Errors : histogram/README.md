@@ -28,5 +28,5 @@ hist(s) => "u..2.....**\rw..5.....*****\rx..2.....**\rz..31....*****************
 #### Notes
 
 - Unfortunately most often Codewars compresses all white spaces into one.
-- You can see another examples in the "Sample tests".
+- You can see other examples in the "Sample tests".
 

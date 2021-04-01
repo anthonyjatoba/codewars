@@ -19,7 +19,7 @@ How many times will the mother see the ball pass in front of her window (includi
 #### Note:
 The ball can only be seen if the height of the rebounding ball is strictly *greater* than the window parameter.
 
-#### Example:
+#### Examples:
 ```
 - h = 3, bounce = 0.66, window = 1.5, result is 3
 

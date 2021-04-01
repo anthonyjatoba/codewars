@@ -18,7 +18,7 @@ You will be given an array of strings. The words in the array should mesh togeth
   "behemoth" and "mathematics"
   
 
-If all the words in the given array mesh together, then your code should return the meshed letters in a string.
+If all the words in the given array mesh together, then your code should return the meshed letters in a string. You should return the longest common substring. 
 You won't know how many letters the meshed words have in common, but it will be at least one.
 
 

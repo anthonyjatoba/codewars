@@ -72,7 +72,7 @@ decodeMorse('.... . -.--   .--- ..- -.. .')
 //should return "HEY JUDE"
 ```
 ```rust
-MorseDecoder::new().decode_morse(".... . -.--   .--- ..- -.. .")
+decode_morse(".... . -.--   .--- ..- -.. .")
 //should return "HEY JUDE"
 ```
 ```scala
@@ -98,7 +98,7 @@ The Morse code table is preloaded for you as a dictionary, feel free to use it:
 + Haskell: `morseCodes ! ".--"` (Codes are in a `Map String String`)
 + Java: `MorseCode.get(".--")`
 + Kotlin: `MorseCode[".--"] ?: ""` or `MorseCode.getOrDefault(".--", "")`
-+ Rust: `self.morse_code`
++ Rust: `MORSE_CODE`
 + Scala: `morseCodes(".--")`
 + Swift: `MorseCode[".--"] ?? ""` or `MorseCode[".--", default: ""]`
 * C: provides parallel arrays, i.e. `morse[2] == "-.-"` for `ascii[2] == "C"`

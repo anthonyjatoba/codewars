@@ -7,30 +7,11 @@ Create a function that accepts 2 string arguments and returns an integer of the 
 
 If no occurrences can be found, a count of 0 should be returned.
 
-```javascript
-strCount('Hello', 'o') // => 1
-strCount('Hello', 'l') // => 2
-strCount('', 'z')      // => 0
+Example (**Inputs** --> **Output**)
 ```
-```ruby
-str_count('Hello', 'o') # => 1
-str_count('Hello', 'l') # => 2
-str_count('', 'z')      # => 0
-```
-```java
-strCount("Hello", 'o') // => 1
-strCount("Hello", 'l') // => 2
-strCount("", 'z')      // => 0
-```
-```c
-str_count("Hello", 'o'); // returns 1
-str_count("Hello", 'l'); // returns 2
-str_count("", 'z'); // returns 0
-```
-```nasm
-str_count("Hello", 'o'); // returns 1
-str_count("Hello", 'l'); // returns 2
-str_count("", 'z'); // returns 0
+"Hello", 'o' => 1
+"Hello", 'l' => 2
+"", 'z'      => 0
 ```
 
 Notes:

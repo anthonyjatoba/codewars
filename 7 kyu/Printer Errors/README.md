@@ -19,7 +19,7 @@ Don't reduce this fraction to a simpler expression.
 The string has a length greater or equal to one and contains only letters 
 from `a`to `z`.
 
-## Examples:
+#### Examples:
 
 ```
 s="aaabbbbhaijjjm"
